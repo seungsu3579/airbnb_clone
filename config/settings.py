@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = "#1$^lyy@7-%lhrsm!w6nnp#*329!v@!rj6se3(^pivatiejrt!"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = "*"
+ALLOWED_HOSTS = []
 
 
 DJANGO_APPS = [
